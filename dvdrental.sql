@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 18, 2017 at 08:48 PM
+-- Generation Time: Nov 29, 2017 at 04:01 PM
 -- Server version: 10.1.25-MariaDB
 -- PHP Version: 5.6.31
 
@@ -86,20 +86,6 @@ INSERT INTO `hollywood` (`ID`, `Movie_Name`, `Brief_Desc`, `Description`, `Direc
 (7, 'Wolf Warrior 2', 'China\'s deadliest special forces operative settles into a quiet life on the sea. When sadistic mercenaries...', 'China\'s deadliest special forces operative settles into a quiet life on the sea. When sadistic mercenaries begin targeting nearby civilians, he must leave his newfound peace behind and return to his duties as a soldier and protector. ', 'Jing Wu', 'Jing Wu, Frank Grillo, Celina Jade', 'Action, Foreign, War', 'public_html/images/poster7.jpg', 'https://www.youtube.com/embed/fkqGiPB2D8M?rel=0&amp;showinfo=0'),
 (8, 'Unlocked', 'After failing to apprehend the terrorist behind a Paris attack that claimed dozens of lives, CIA agent Alice...', 'After failing to apprehend the terrorist behind a Paris attack that claimed dozens of lives, CIA agent Alice Racine (Noomi Rapace) is forced to live in London as a caseworker. Her mentor unexpectedly calls her back into action when the CIA discovers that another attack is imminent. ', 'Michael Apted', 'Noomi Rapace, Orlando Bloom, Toni Collette, John Malkovich, Michael Douglas', 'Action, Thriller', 'public_html/images/poster8.jpg', 'https://www.youtube.com/embed/CCqISHuTgHE?rel=0&amp;showinfo=0');
 
--- --------------------------------------------------------
-
---
--- Table structure for table `user`
---
-
-CREATE TABLE `user` (
-  `ID` int(11) NOT NULL,
-  `Name` varchar(100) NOT NULL,
-  `Username` varchar(100) NOT NULL,
-  `Email` varchar(150) NOT NULL,
-  `Password` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
 --
 -- Indexes for dumped tables
 --
@@ -117,12 +103,6 @@ ALTER TABLE `hollywood`
   ADD PRIMARY KEY (`ID`);
 
 --
--- Indexes for table `user`
---
-ALTER TABLE `user`
-  ADD PRIMARY KEY (`ID`);
-
---
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -135,12 +115,7 @@ ALTER TABLE `bollywood`
 -- AUTO_INCREMENT for table `hollywood`
 --
 ALTER TABLE `hollywood`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
---
--- AUTO_INCREMENT for table `user`
---
-ALTER TABLE `user`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;COMMIT;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
