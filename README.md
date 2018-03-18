@@ -2,6 +2,7 @@
 Website for DVD Rental Store made for DBMS Project (CS222)
 
 To visit the site, use the following login information:
+
 Username = test
 
 Password = test
