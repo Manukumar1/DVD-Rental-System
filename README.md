@@ -7,19 +7,19 @@ Password = test
 
 Screenshots of Pages:
 HOMEPAGE
-![alt text](G:/xampp1/htdocs/DVD-Rental-System/screenshots/homepage.png "HOMEPAGE")
+![alt text](https://github.com/Manukumar1/DVD-Rental-System/blob/master/screenshots/homepage.png "HOMEPAGE")
 
 HOLLYWOOD MOVIES PAGE
-![alt text](G:/xampp1/htdocs/DVD-Rental-System/screenshots/hollywood.png "HOLLYWOOD MOVIES PAGE")
+![alt text](https://github.com/Manukumar1/DVD-Rental-System/blob/master/screenshots/hollywood.png "HOLLYWOOD MOVIES PAGE")
 
 BOLLYWOOD MOVIES PAGE
-![alt text](G:/xampp1/htdocs/DVD-Rental-System/screenshots/bollywood.png "BOLLYWOOD MOVIES PAGE")
+![alt text](https://github.com/Manukumar1/DVD-Rental-System/blob/master/screenshots/bollywood.png "BOLLYWOOD MOVIES PAGE")
 
 MOVIE PROFILE
-![alt text](G:/xampp1/htdocs/DVD-Rental-System/screenshots/movie_profile.png "MOVIE PROFILE")
+![alt text](https://github.com/Manukumar1/DVD-Rental-System/blob/master/screenshots/movie_profile.png "MOVIE PROFILE")
 
 PAYMENT PAGE
-![alt text](G:/xampp1/htdocs/DVD-Rental-System/screenshots/payment.png "PAYMENT PAGE")
+![alt text](https://github.com/Manukumar1/DVD-Rental-System/blob/master/screenshots/payment.png "PAYMENT PAGE")
 
 END OF TRANSACTION PAGE
-![alt text](G:/xampp1/htdocs/DVD-Rental-System/screenshots/transaction.png "END OF TRANSACTION PAGE")
+![alt text](https://github.com/Manukumar1/DVD-Rental-System/blob/master/screenshots/transaction.png "END OF TRANSACTION PAGE")
